@@ -4,6 +4,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  LiveReload,
 } from '@remix-run/react';
 import type { MetaFunction, LinksFunction } from '@remix-run/node';
 
@@ -36,6 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <LiveReload />
         {children}
         <ScrollRestoration />
         <Scripts />
