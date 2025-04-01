@@ -26,6 +26,7 @@
     "**/*.stories.tsx",
     "**/*.stories.mdx",
     ".storybook/*.js",
-    ".storybook/*.ts"
+    ".storybook/*.ts",
+    ".storybook/vite.config.mts"
   ]
 }

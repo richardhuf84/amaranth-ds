@@ -17,6 +17,7 @@ const Button = ({ variant = 'primary', children, ...props }: ButtonProps) => {
         all: 'unset',
         background: backgroundColorMap[variant],
         color: 'white',
+        padding: '1rem',
       }}
       {...props}
     >
